@@ -148,3 +148,95 @@ body {
   width: auto;
   object-fit: contain;
 }
+
+/* BASE DO CARD */
+.card {
+  padding: 25px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER PADRÃO */
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* ================================= */
+/* 🎯 CORES POR PRODUTO */
+/* ================================= */
+
+/* TotalDocs */
+.card.docs {
+  border-color: rgba(0,123,255,0.4);
+}
+.card.docs:hover {
+  box-shadow: 0 0 25px rgba(0,123,255,0.5);
+}
+.card.docs h3 {
+  color: #007bff;
+}
+
+/* TotalSign */
+.card.sign {
+  border-color: rgba(247,145,61,0.4);
+}
+.card.sign:hover {
+  box-shadow: 0 0 25px rgba(247,145,61,0.5);
+}
+.card.sign h3 {
+  color: #F7913D;
+}
+
+/* TotalBot */
+.card.bot {
+  border-color: rgba(9,154,53,0.4);
+}
+.card.bot:hover {
+  box-shadow: 0 0 25px rgba(9,154,53,0.5);
+}
+.card.bot h3 {
+  color: #099A35;
+}
+
+/* TotalSync */
+.card.sync {
+  border-color: rgba(140, 82, 255, 0.4);
+}
+.card.sync:hover {
+  box-shadow: 0 0 25px rgba(140, 82, 255, 0.6);
+}
+.card.sync h3 {
+  color: #8c52ff;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card.docs:hover::before {
+  background: radial-gradient(circle, rgba(0,123,255,0.15), transparent 70%);
+  opacity: 1;
+}
+
+.card.sign:hover::before {
+  background: radial-gradient(circle, rgba(247,145,61,0.15), transparent 70%);
+  opacity: 1;
+}
+
+.card.bot:hover::before {
+  background: radial-gradient(circle, rgba(9,154,53,0.15), transparent 70%);
+  opacity: 1;
+}
+
+.card.sync:hover::before {
+  background: radial-gradient(circle, rgba(140,82,255,0.2), transparent 70%);
+  opacity: 1;
+}
