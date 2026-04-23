@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background: #0b0f1a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  z-index: 10;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #6366f1;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: rgba(99,102,241,0.3);
+  filter: blur(120px);
+  border-radius: 50%;
+  top: 100px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.hero span {
+  color: #6366f1;
+}
+
+.hero p {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+.hero button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  color: #aaa;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* HOW IT WORKS */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  gap: 20px;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #777;
+}
