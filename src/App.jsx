@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Ecosystem from "./components/Ecosystem";
 import ComoFunciona from "./components/ComoFunciona";
-import Results from "./components/Results";
+import Resultados from "./components/Resultados";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <Ecosystem />
       <ComoFunciona />  {/* 👈 AQUI */}
-      <Results />
+      <Resultados />
     </>
   );
 }
