@@ -240,3 +240,51 @@ body {
   background: radial-gradient(circle, rgba(140,82,255,0.2), transparent 70%);
   opacity: 1;
 }
+
+/* BASE DO ÍCONE */
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  transition: 0.3s;
+}
+
+/* TotalDocs */
+.docs-icon {
+  background: rgba(0,123,255,0.15);
+  color: #007bff;
+}
+.card.docs:hover .docs-icon {
+  box-shadow: 0 0 20px rgba(0,123,255,0.6);
+}
+
+/* TotalSign */
+.sign-icon {
+  background: rgba(247,145,61,0.15);
+  color: #F7913D;
+}
+.card.sign:hover .sign-icon {
+  box-shadow: 0 0 20px rgba(247,145,61,0.6);
+}
+
+/* TotalBot */
+.bot-icon {
+  background: rgba(9,154,53,0.15);
+  color: #099A35;
+}
+.card.bot:hover .bot-icon {
+  box-shadow: 0 0 20px rgba(9,154,53,0.6);
+}
+
+/* TotalSync */
+.sync-icon {
+  background: rgba(140,82,255,0.15);
+  color: #8c52ff;
+}
+.card.sync:hover .sync-icon {
+  box-shadow: 0 0 20px rgba(140,82,255,0.7);
+}
