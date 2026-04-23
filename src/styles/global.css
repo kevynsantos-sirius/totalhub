@@ -288,3 +288,80 @@ body {
 .card.sync:hover .sync-icon {
   box-shadow: 0 0 20px rgba(140,82,255,0.7);
 }
+
+.flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.flow-item {
+  text-align: center;
+  max-width: 160px;
+}
+
+/* Ícone */
+.flow-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  transition: 0.3s;
+}
+
+/* Linha entre eles */
+.flow-line {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.1), rgba(255,255,255,0.3));
+}
+
+/* ================= CORES ================= */
+
+/* Sync */
+.flow-item.sync .flow-icon {
+  background: rgba(140,82,255,0.15);
+  color: #8c52ff;
+}
+.flow-item.sync:hover .flow-icon {
+  box-shadow: 0 0 20px rgba(140,82,255,0.6);
+}
+
+/* Docs */
+.flow-item.docs .flow-icon {
+  background: rgba(0,123,255,0.15);
+  color: #007bff;
+}
+.flow-item.docs:hover .flow-icon {
+  box-shadow: 0 0 20px rgba(0,123,255,0.6);
+}
+
+/* Bot */
+.flow-item.bot .flow-icon {
+  background: rgba(9,154,53,0.15);
+  color: #099A35;
+}
+.flow-item.bot:hover .flow-icon {
+  box-shadow: 0 0 20px rgba(9,154,53,0.6);
+}
+
+/* Sign */
+.flow-item.sign .flow-icon {
+  background: rgba(247,145,61,0.15);
+  color: #F7913D;
+}
+.flow-item.sign:hover .flow-icon {
+  box-shadow: 0 0 20px rgba(247,145,61,0.6);
+}
+
+/* Texto */
+.flow-item p {
+  font-size: 14px;
+  color: #ccc;
+}

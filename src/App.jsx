@@ -1,19 +1,19 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Ecosystem from "./components/Ecosystem";
-import HowItWorks from "./components/HowItWorks";
+import ComoFunciona from "./components/ComoFunciona";
 import Results from "./components/Results";
-import Footer from "./components/Footer";
 
-export default function App() {
+function App() {
   return (
     <>
       <Navbar />
       <Hero />
       <Ecosystem />
-      <HowItWorks />
+      <ComoFunciona />  {/* 👈 AQUI */}
       <Results />
-      <Footer />
     </>
   );
 }
+
+export default App;
