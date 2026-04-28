@@ -447,3 +447,73 @@ body {
 .result-card.speed:hover {
   box-shadow: 0 0 25px rgba(9,154,53,0.4);
 }
+
+.cta-button-primary {
+  margin-top: 40px;
+  padding: 20px 42px;
+  border-radius: 16px;
+  border: none;
+
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  transition: all 0.35s ease;
+}
+
+/* hover premium */
+.cta-button-primary:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow:
+    0 0 25px rgba(99,102,241,0.7),
+    0 0 70px rgba(139,92,246,0.4);
+}
+
+/* click */
+.cta-button-primary:active {
+  transform: scale(0.96);
+}
+
+/* seta animada */
+.cta-button-primary .arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cta-button-primary:hover .arrow {
+  transform: translateX(8px);
+}
+
+/* efeito brilho passando */
+.cta-button-primary::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -120%;
+
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.4),
+    transparent
+  );
+
+  transition: 0.6s;
+}
+
+.cta-button-primary:hover::before {
+  left: 120%;
+}
