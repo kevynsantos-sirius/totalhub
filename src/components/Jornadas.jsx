@@ -1,6 +1,6 @@
 export default function Jornadas() {
   return (
-    <section className="section">
+    <section id="jornadas" className="section">
       <h2>Jornadas Inteligentes</h2>
 
       <p className="text-block">

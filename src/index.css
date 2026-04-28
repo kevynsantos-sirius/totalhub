@@ -468,3 +468,124 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* GRID PREMIUM */
+.premium-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* CARD */
+.premium-card {
+  padding: 40px;
+  border-radius: 20px;
+
+  background: linear-gradient(
+    160deg,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0.01)
+  );
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  text-align: left;
+
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER */
+.premium-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 0 40px rgba(99,102,241,0.25);
+}
+
+/* LINHA DE BRILHO (efeito premium real) */
+.premium-card::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 60%);
+  top: -50%;
+  left: -50%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.premium-card:hover::before {
+  opacity: 1;
+}
+
+/* ICON WRAPPER (GRANDE) */
+.icon-wrapper {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+/* CORES + GLOW */
+
+.icon-wrapper.blue {
+  background: rgba(0,123,255,0.15);
+  color: var(--blue);
+  box-shadow: 0 0 30px rgba(0,123,255,0.25);
+}
+
+.icon-wrapper.purple {
+  background: rgba(139,92,246,0.15);
+  color: var(--purple);
+  box-shadow: 0 0 30px rgba(139,92,246,0.25);
+}
+
+.icon-wrapper.green {
+  background: rgba(9,154,53,0.15);
+  color: var(--green);
+  box-shadow: 0 0 30px rgba(9,154,53,0.25);
+}
+
+/* TEXTO */
+.premium-card h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.premium-card p {
+  color: #bfc4d4;
+  font-size: 15px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .premium-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  font-size: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

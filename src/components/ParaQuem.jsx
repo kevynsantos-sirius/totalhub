@@ -1,6 +1,6 @@
 export default function ParaQuem() {
   return (
-    <section className="section">
+    <section id="paraquem" className="section">
       <h2>Para quem é</h2>
 
       <div className="grid">

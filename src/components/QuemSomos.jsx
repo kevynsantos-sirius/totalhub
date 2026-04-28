@@ -1,29 +1,37 @@
+import { Settings, BarChart3, Rocket } from "lucide-react";
+
 export default function QuemSomos() {
   return (
-    <section className="section">
+    <section id="quem" className="section">
       <h2>Quem somos</h2>
 
       <p className="section-subtitle">
-        A TotalHub ajuda empresas a organizar dados e automatizar operações com inteligência.
+        Transformamos operações complexas em fluxos simples, inteligentes e escaláveis.
       </p>
 
-      <div className="info-grid">
-        <div className="info-card">
-          <div className="info-icon">⚙️</div>
-          <h3>Automação</h3>
-          <p>Reduza tarefas manuais e aumente produtividade.</p>
+      <div className="premium-grid">
+        <div className="premium-card">
+          <div className="icon-wrapper blue">
+            <Settings size={42} />
+          </div>
+          <h3>Automação inteligente</h3>
+          <p>Elimine tarefas repetitivas e ganhe eficiência operacional.</p>
         </div>
 
-        <div className="info-card">
-          <div className="info-icon">📊</div>
-          <h3>Controle</h3>
-          <p>Tenha visibilidade total dos seus processos.</p>
+        <div className="premium-card">
+          <div className="icon-wrapper purple">
+            <BarChart3 size={42} />
+          </div>
+          <h3>Visão estratégica</h3>
+          <p>Dados organizados para decisões rápidas e assertivas.</p>
         </div>
 
-        <div className="info-card">
-          <div className="info-icon">🚀</div>
-          <h3>Escalabilidade</h3>
-          <p>Cresça sem aumentar complexidade operacional.</p>
+        <div className="premium-card">
+          <div className="icon-wrapper green">
+            <Rocket size={42} />
+          </div>
+          <h3>Escala real</h3>
+          <p>Cresça sem aumentar complexidade e custo operacional.</p>
         </div>
       </div>
     </section>

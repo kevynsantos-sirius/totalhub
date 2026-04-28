@@ -5,9 +5,14 @@ export default function Navbar() {
     <div className="navbar">
       <div className="navbar-container">
         <img src={logo} alt="TotalHub" className="logo" />
-        <div>
+
+        <div className="nav-links">
+          <a href="#quem">Quem somos</a>
+          <a href="#fazemos">O que fazemos</a>
           <a href="#ecosystem">Ecossistema</a>
           <a href="#como">Como funciona</a>
+          <a href="#jornadas">Jornadas</a>
+          <a href="#paraquem">Para quem</a>
           <a href="#resultados">Resultados</a>
         </div>
       </div>
