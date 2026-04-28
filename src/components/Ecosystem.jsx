@@ -8,7 +8,9 @@ export default function Ecosystem() {
       <p>
         Plataformas que conectam dados, automatizam jornadas e criam inteligência contínua.
       </p>
-
+      <p className="text-block">
+        Cada plataforma resolve uma etapa da operação. Juntas, elas criam um fluxo contínuo onde dados geram inteligência e inteligência orienta novas ações.
+      </p>
       <div className="grid">
 
         <div className="card docs">

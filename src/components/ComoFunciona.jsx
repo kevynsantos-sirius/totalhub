@@ -5,6 +5,10 @@ export default function ComoFunciona() {
     <section className="section" id="como">
       <h2>Como funciona</h2>
 
+      <p className="text-block">
+        As plataformas atuam de forma integrada, criando um fluxo contínuo de dados, execução e aprendizado dentro da operação.
+      </p>
+
       <div className="flow">
 
         <div className="flow-item sync">
