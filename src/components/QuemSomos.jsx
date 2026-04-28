@@ -1,18 +1,30 @@
 export default function QuemSomos() {
   return (
-    <section className="section highlight-section">
-      <div className="content-box">
-        <h2>Quem somos</h2>
+    <section className="section">
+      <h2>Quem somos</h2>
 
-        <p>
-          A <span className="highlight-text">TotalHub</span> ajuda empresas a organizar dados,
-          automatizar processos e ter mais controle sobre suas operações.
-        </p>
+      <p className="section-subtitle">
+        A TotalHub ajuda empresas a organizar dados e automatizar operações com inteligência.
+      </p>
 
-        <p>
-          Nosso foco é transformar operações complexas em fluxos simples,
-          inteligentes e escaláveis.
-        </p>
+      <div className="info-grid">
+        <div className="info-card">
+          <div className="info-icon">⚙️</div>
+          <h3>Automação</h3>
+          <p>Reduza tarefas manuais e aumente produtividade.</p>
+        </div>
+
+        <div className="info-card">
+          <div className="info-icon">📊</div>
+          <h3>Controle</h3>
+          <p>Tenha visibilidade total dos seus processos.</p>
+        </div>
+
+        <div className="info-card">
+          <div className="info-icon">🚀</div>
+          <h3>Escalabilidade</h3>
+          <p>Cresça sem aumentar complexidade operacional.</p>
+        </div>
       </div>
     </section>
   );
