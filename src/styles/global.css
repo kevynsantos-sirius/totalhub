@@ -517,3 +517,35 @@ body {
 .cta-button-primary:hover::before {
   left: 120%;
 }
+
+/* AUMENTO GLOBAL DOS PARÁGRAFOS */
+p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* GARANTE QUE OS ESPECÍFICOS TAMBÉM AUMENTEM */
+.hero p,
+.section p,
+.flow-item p {
+  font-size: 18px;
+}
+
+/* SUBTÍTULOS */
+.section-subtitle,
+.subtitle {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #bfc4d4; /* melhora leitura */
+}
+
+.section-subtitle,
+.subtitle {
+  font-size: 20px;
+  color: #aab2d5;
+}
