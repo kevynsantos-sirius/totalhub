@@ -1,6 +1,6 @@
 export default function Intelligence() {
   return (
-    <section className="section">
+    <section id="ia" className="section">
       <h2>Inteligência operacional com IA</h2>
 
       <p className="subtitle">

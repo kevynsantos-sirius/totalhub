@@ -1,6 +1,6 @@
 export default function Modules() {
   return (
-    <section className="section">
+    <section id="modulos" className="section">
       <h2>Ecossistema TotalHub</h2>
 
       <div className="grid">

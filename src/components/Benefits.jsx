@@ -1,6 +1,6 @@
 export default function Benefits() {
   return (
-    <section className="section">
+    <section id="beneficios" className="section">
       <h2>Resultados que fazem diferença</h2>
 
       <div className="results-grid">
