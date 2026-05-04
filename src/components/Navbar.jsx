@@ -1,19 +1,25 @@
+import logo from "../assets/logo_totalhub_vetor_color_Branco.png";
+
 export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <strong>TotalHub</strong>
 
-        <div className="nav-links">
-          <a href="#modules">Módulos</a>
-          <a href="#intelligence">IA</a>
-          <a href="#benefits">Benefícios</a>
-          <a href="#">Contato</a>
-
-          <button className="cta-button-primary">
-            Demo
-          </button>
+        <div className="navbar-left">
+          <div className="logo"><img src={logo} alt="TotalHub" className="logo" /></div>
         </div>
+
+        <div className="navbar-center">
+          <a href="#modulos">Módulos</a>
+          <a href="#ia">IA</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#contato">Contato</a>
+        </div>
+
+        <div className="navbar-right">
+          <button className="nav-cta">Demo</button>
+        </div>
+
       </div>
     </div>
   );
