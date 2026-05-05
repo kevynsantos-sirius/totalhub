@@ -2,7 +2,7 @@
   --bg: #070b1a;
   --bg-secondary: #0b1023;
 
-  --text: #9ca3af;
+  --text: #f7f7f7;
   --text-h: #ffffff;
 
   --border: rgba(255,255,255,0.08);
@@ -58,7 +58,7 @@ h2 {
 
 /* TEXTO */
 p {
-  color: #bfc4d4;
+  color: #f7f7f7;
   line-height: 1.7;
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 .hero span {
-  color: var(--accent);
+  color: white;
 }
 
 /* BOTÃO */
@@ -632,4 +632,12 @@ p {
 
 html {
   scroll-behavior: smooth;
+}
+
+h3 {
+  color: #f7f7f7;
+}
+
+a {
+  color: white;
 }

@@ -70,7 +70,7 @@ body {
 
 .hero p {
   margin-top: 20px;
-  color: #aaa;
+  color: #f7f7f7;
 }
 
 .hero button {
@@ -101,7 +101,7 @@ body {
 }
 
 .section p {
-  color: #aaa;
+  color: #f7f7f7;
   max-width: 600px;
   margin: auto;
 }
@@ -541,7 +541,7 @@ p {
 p {
   font-size: 18px;
   line-height: 1.8;
-  color: #bfc4d4; /* melhora leitura */
+  color: #f7f7f7; /* melhora leitura */
 }
 
 .section-subtitle,
