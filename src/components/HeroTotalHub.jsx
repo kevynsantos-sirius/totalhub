@@ -6,7 +6,7 @@ export default function HeroTotalHub() {
       <div>
         <h1>
           Sua operação está espalhada em várias ferramentas{" "}
-          <span>que não se conversam?</span>
+          <text>que não se conversam?</text>
         </h1>
 
         <p>
