@@ -147,22 +147,52 @@ text {
 }
 
 /* FOOTER */
+/* Rodapé */
+/* FOOTER */
 .footer {
   text-align: center;
   padding: 40px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
   background-color: black;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
-.footer h3
-{
-  color: white;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Certifica-se que o container está centralizado */
+  padding: 0 20px;
 }
 
-.footer p
-{
+.footer-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-rights p {
   color: white;
+  font-size: 16px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+
+.footer-social a:hover .social-icon {
+  transform: scale(1.1);
 }
 
 .logo {
