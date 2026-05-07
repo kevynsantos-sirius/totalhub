@@ -16,7 +16,7 @@ export default function Overview() {
           <div className="icon">
             <MessageCircle size={40} /> {/* Ícone de Comunicação */}
           </div>
-          <h3>Comunicação integrada</h3>
+          <h3>Comunicação  integrada</h3>
           <p>Todos os canais em uma única plataforma</p>
         </div>
 
@@ -25,7 +25,7 @@ export default function Overview() {
           <div className="icon">
             <Cpu size={40} /> {/* Ícone de Automação */}
           </div>
-          <h3>Automação inteligente</h3>
+          <h3>Automação  inteligente</h3>
           <p>Jornadas automatizadas com regras e IA</p>
         </div>
 
@@ -34,7 +34,7 @@ export default function Overview() {
           <div className="icon">
             <Database size={40} /> {/* Ícone de Dados */}
           </div>
-          <h3>Dados conectados</h3>
+          <h3>Dados  conectados</h3>
           <p>Integração total entre sistemas</p>
         </div>
       </div>
