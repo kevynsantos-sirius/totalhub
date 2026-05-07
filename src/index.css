@@ -1,9 +1,9 @@
 :root {
-  --bg: #070b1a;
+  --bg: #e7d7ff; /* Alterado para #e7d7ff */
   --bg-secondary: #0b1023;
 
-  --text: #f7f7f7;
-  --text-h: #ffffff;
+  --text: #000000; /* Alterado para preto */
+  --text-h: #000000; /* Alterado para preto */
 
   --border: rgba(255,255,255,0.08);
 
@@ -21,8 +21,8 @@
 /* RESET */
 body {
   margin: 0;
-  background: radial-gradient(circle at 20% 0%, #0f1a3a, #070b1a 60%);
-  color: var(--text);
+  background: #f7f7f7; /* Alterado o fundo para #e7d7ff */
+  color: var(--text); /* Alterado para texto preto */
 }
 
 /* Glow de fundo (efeito premium) */
@@ -58,7 +58,7 @@ h2 {
 
 /* TEXTO */
 p {
-  color: #f7f7f7;
+  color: var(--text); /* Alterado para texto preto */
   line-height: 1.7;
 }
 
@@ -165,7 +165,7 @@ p {
 }
 
 .navbar-center a {
-  color: #aaa;
+  color: white;
   text-decoration: none;
   font-size: 15px;
   transition: 0.2s;
@@ -246,7 +246,7 @@ p {
 
 .content-box p {
   font-size: 17px;
-  color: #cbd5e1;
+  color: var(--text);
   margin-top: 15px;
 }
 
@@ -393,7 +393,7 @@ p {
 }
 
 .result-card h3 {
-  color: white;
+  color: var(--text);
   margin-bottom: 10px;
 }
 
@@ -608,7 +608,7 @@ p {
 }
 
 .premium-card p {
-  color: #bfc4d4;
+  color: var(--text);
   font-size: 15px;
 }
 
@@ -635,7 +635,7 @@ html {
 }
 
 h3 {
-  color: #f7f7f7;
+  color: var(--text); /* Alterado para preto */
 }
 
 a {
