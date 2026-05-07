@@ -10,7 +10,7 @@ export default function Overview() {
         automação e integração.
       </p>
 
-      <div className="new-grid">
+      <div className="new-column-list">
         {/* Card Comunicação Integrada */}
         <div className="new-card card-comunicacao">
           <div className="icon">
