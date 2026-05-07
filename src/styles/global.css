@@ -731,3 +731,57 @@ p {
 {
   margin-bottom: 20px;
 }
+
+.cta-section {
+  position: relative;
+  background-color: #f7f7f7; /* Cor de fundo */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 100px 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-title {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.cta-subtitle {
+  color: black;
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.cta-button {
+  margin-top: 30px;
+  padding: 8px 12px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+}
+
+.cta-marked-text {
+  color: #6366f1;
+}
+
+.cta-arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover .cta-arrow {
+  transform: translateX(8px);
+}

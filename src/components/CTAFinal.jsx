@@ -1,18 +1,31 @@
 export default function CTAFinal() {
   return (
-    <section className="section">
-      <h2>Transforme sua operação <span className="marked_text">com inteligência</span></h2>
+    <section
+      className="cta-section"
+      style={{
+        backgroundImage: `url('/src/assets/background-bottom.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        padding: '100px 20px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        textAlign: 'left',
+      }}
+    >
+      <h2 className="cta-title">Transforme sua operação</h2>
+      <h2><span className="cta-title cta-marked-text">com inteligência</span></h2>
 
-      <p>
+      <p className="cta-subtitle">
         Transforme dados em insights, insights em jornadas e jornadas em resultados.
       </p>
 
       <button
-        className="cta-button-primary"
+        className="cta-button"
         onClick={() => alert("Abrir fluxo de demonstração 🚀")}
       >
         <span>Solicitar demonstração</span>
-        <span className="arrow">→</span>
+        <span className="cta-arrow">→</span>
       </button>
     </section>
   );
