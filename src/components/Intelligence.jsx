@@ -1,3 +1,5 @@
+import { Cpu, BarChart, Clock, Edit3 } from "lucide-react"; // Importando novos ícones para dar mais variação
+
 export default function Intelligence() {
   return (
     <section id="ia" className="section">
@@ -8,17 +10,26 @@ export default function Intelligence() {
       </p>
 
       <div className="grid">
-        <div className="card">
+        <div className="card premium">
+          <div className="icon">
+            <Cpu size={40} />
+          </div>
           <h3>Orquestração automática</h3>
           <p>Fluxos inteligentes sem intervenção manual</p>
         </div>
 
-        <div className="card">
+        <div className="card premium">
+          <div className="icon">
+            <BarChart size={40} />
+          </div>
           <h3>Insights acionáveis</h3>
           <p>Dados transformados em estratégia</p>
         </div>
 
-        <div className="card">
+        <div className="card premium">
+          <div className="icon">
+            <Clock size={40} />
+          </div>
           <h3>Otimização contínua</h3>
           <p>Melhoria constante baseada em comportamento</p>
         </div>

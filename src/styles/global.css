@@ -395,6 +395,7 @@ text {
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
+  justify-items: center;
 }
 
 /* CARD BASE */
@@ -622,4 +623,51 @@ p {
 {
   color: #6366f1;
   font-size: 72px;
+}
+
+/* Efeitos para os ícones */
+.icon {
+  margin-bottom: 15px;
+  color: #6366f1;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: #8b5cf6; /* Cor quando passar o mouse sobre o ícone */
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+}
+
+/* Cartão Premium */
+.card.premium {
+  background: rgba(140, 82, 255, 0.1);
+  border: 2px solid rgba(140, 82, 255, 0.3);
+  box-shadow: 0 0 15px rgba(140, 82, 255, 0.5);
+}
+
+/* Cartão Plus */
+.card.plus {
+  background: rgba(247, 145, 61, 0.1);
+  border: 2px solid rgba(247, 145, 61, 0.3);
+  box-shadow: 0 0 15px rgba(247, 145, 61, 0.5);
+}
+
+/* Animação para o título do cartão */
+.card h3 {
+  font-size: 24px;
+  color: #6366f1;
+  transition: 0.3s;
+}
+
+.card:hover h3 {
+ 
+  transform: translateY(-5px); /* Efeito de elevação no título */
+}
+
+
+
+/* Efeito no hover do card */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
