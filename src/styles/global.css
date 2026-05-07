@@ -151,7 +151,18 @@ text {
   text-align: center;
   padding: 40px;
   border-top: 1px solid rgba(255,255,255,0.1);
-  color: #777;
+  color: white;
+  background-color: black;
+}
+
+.footer h3
+{
+  color: white;
+}
+
+.footer p
+{
+  color: white;
 }
 
 .logo {
@@ -746,7 +757,7 @@ p {
 }
 
 .cta-title {
-  font-size: 50px;
+  font-size: 45px;
   color: black;
   margin-bottom: 20px;
 }

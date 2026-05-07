@@ -4,12 +4,13 @@ export default function CTAFinal() {
       className="cta-section"
       style={{
         backgroundImage: `url('/src/assets/background-bottom.png')`,
-        backgroundSize: 'cover',
+        width: '100%',
+        height: '900px',
         backgroundPosition: 'center',
         padding: '100px 20px',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
+        justifyContent: 'start',
         textAlign: 'left',
       }}
     >
