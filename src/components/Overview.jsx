@@ -14,7 +14,7 @@ export default function Overview() {
         {/* Card Comunicação Integrada */}
         <div className="new-card card-comunicacao">
           <div className="icon">
-            <MessageCircle /> {/* Ícone de Comunicação */}
+            <MessageCircle size={40} /> {/* Ícone de Comunicação */}
           </div>
           <h3>Comunicação integrada</h3>
           <p>Todos os canais em uma única plataforma</p>
@@ -23,7 +23,7 @@ export default function Overview() {
         {/* Card Automação Inteligente */}
         <div className="new-card card-automacao">
           <div className="icon">
-            <Cpu /> {/* Ícone de Automação */}
+            <Cpu size={40} /> {/* Ícone de Automação */}
           </div>
           <h3>Automação inteligente</h3>
           <p>Jornadas automatizadas com regras e IA</p>
@@ -32,7 +32,7 @@ export default function Overview() {
         {/* Card Dados Conectados */}
         <div className="new-card card-dados">
           <div className="icon">
-            <Database /> {/* Ícone de Dados */}
+            <Database size={40} /> {/* Ícone de Dados */}
           </div>
           <h3>Dados conectados</h3>
           <p>Integração total entre sistemas</p>

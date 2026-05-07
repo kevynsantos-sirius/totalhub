@@ -682,7 +682,6 @@ p {
 /* Card Base */
 .new-card {
   padding: 30px;
-  border-radius: 16px;
   background: rgba(255,255,255,0.03); /* Transparente para não alterar o fundo */
   border: 1px solid rgba(255,255,255,0.1);
   transition: 0.3s;
@@ -712,4 +711,20 @@ p {
   color: #6366f1;
   margin-bottom: 20px;
   transition: 0.3s;
+}
+
+.new-column-list {
+  display: flex;
+  margin-top: 40px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* cria a linha entre os itens */
+.new-column-list .new-card {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 40px;
+  margin-right: 40px;
+  width: 400px;
 }
