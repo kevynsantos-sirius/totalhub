@@ -3,7 +3,7 @@ import { Workflow, UserRoundPlus, BarChart3 } from "lucide-react";
 export default function Benefits() {
   return (
     <section id="beneficios" className="section">
-      <h2>Resultados que fazem diferença</h2>
+      <h2>Resultados que <span className="marked_text">fazem diferença</span></h2>
 
       <p className="section-subtitle">
         O TotalHub transforma operações fragmentadas em jornadas

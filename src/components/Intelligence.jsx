@@ -1,7 +1,7 @@
 export default function Intelligence() {
   return (
     <section id="ia" className="section">
-      <h2>Inteligência operacional com IA</h2>
+      <h2>Inteligência operacional <span className="marked_text">com IA</span></h2>
 
       <p className="subtitle">
         O TotalHub transforma dados em decisões e automação em vantagem competitiva.

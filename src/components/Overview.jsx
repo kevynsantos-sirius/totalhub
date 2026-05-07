@@ -1,7 +1,7 @@
 export default function Overview() {
   return (
     <section className="section">
-      <h2>Uma nova forma de operar</h2>
+      <h2>Uma nova forma <span className="marked_text">de operar</span></h2>
 
       <p className="subtitle">
         O TotalHub elimina a fragmentação e cria um modelo unificado de comunicação,
