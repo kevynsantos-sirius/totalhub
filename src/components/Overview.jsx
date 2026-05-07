@@ -1,3 +1,5 @@
+import { MessageCircle, Cpu, Database } from 'lucide-react'; // Importando ícones
+
 export default function Overview() {
   return (
     <section className="section">
@@ -8,18 +10,30 @@ export default function Overview() {
         automação e integração.
       </p>
 
-      <div className="grid">
-        <div className="card">
+      <div className="new-grid">
+        {/* Card Comunicação Integrada */}
+        <div className="new-card card-comunicacao">
+          <div className="icon">
+            <MessageCircle /> {/* Ícone de Comunicação */}
+          </div>
           <h3>Comunicação integrada</h3>
           <p>Todos os canais em uma única plataforma</p>
         </div>
 
-        <div className="card">
+        {/* Card Automação Inteligente */}
+        <div className="new-card card-automacao">
+          <div className="icon">
+            <Cpu /> {/* Ícone de Automação */}
+          </div>
           <h3>Automação inteligente</h3>
           <p>Jornadas automatizadas com regras e IA</p>
         </div>
 
-        <div className="card">
+        {/* Card Dados Conectados */}
+        <div className="new-card card-dados">
+          <div className="icon">
+            <Database /> {/* Ícone de Dados */}
+          </div>
           <h3>Dados conectados</h3>
           <p>Integração total entre sistemas</p>
         </div>

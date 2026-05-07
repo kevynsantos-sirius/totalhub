@@ -665,3 +665,72 @@ p {
   transform: translateY(-10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* NOVAS CLASSES PARA OVERVIEW - COM ÍCONES E MELHORIA VISUAL */
+
+/* Cards no grid */
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Card Base */
+.new-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03); /* Transparente para não alterar o fundo */
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.new-card h3 {
+  font-size: 24px;
+  color: #6366f1;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.new-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Efeito no hover do card */
+.new-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.new-card:hover h3 {
+  transform: translateY(-5px);
+  color: #6366f1; /* Cor para o título no hover */
+}
+
+/* Ícones */
+.new-card .icon {
+  font-size: 50px;
+  color: #6366f1;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+/* Adicionando as cores para cada tipo de card */
+.card-comunicacao {
+  border-color: rgba(0,123,255,0.4);
+}
+
+.card-automacao {
+  border-color: rgba(247,145,61,0.4);
+}
+
+.card-dados {
+  border-color: rgba(9,154,53,0.4);
+}
