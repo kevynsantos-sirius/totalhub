@@ -49,6 +49,16 @@ body {
   position: relative;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(247, 247, 247, 0.4); /* Background overlay para escurecer a imagem */
+  z-index: 1; /* Mantém a sobrecapa sobre a imagem, mas abaixo do texto */
+}
+
 .glow {
   position: absolute;
   width: 600px;
