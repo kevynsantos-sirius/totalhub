@@ -632,12 +632,6 @@ p {
   transition: 0.3s;
 }
 
-.icon:hover {
-  color: #8b5cf6; /* Cor quando passar o mouse sobre o ícone */
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
-}
-
 /* Cartão Premium */
 .card.premium {
   background: rgba(140, 82, 255, 0.1);
